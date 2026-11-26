@@ -48,6 +48,7 @@ Product catalog and sample item data are fetched from the DummyJSON REST API (no
 git clone [https://github.com/abdalrahman-alhabash/e-commerce-shop.git](https://github.com/abdalrahman-alhabash/e-commerce-shop.git)
 
 npm install
+
 npm run dev
 
 ---
