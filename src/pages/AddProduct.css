@@ -1,0 +1,68 @@
+ .addProduct-page{
+    background-color: #fff;
+}
+.addProduct-page h2 {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    font-size: 30px;
+}
+.addProduct-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+} 
+
+.addProduct-form{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    max-width: 450px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgb(0 ,0 , 0 , 0.1);
+}
+.addProduct-form label {
+    font-size: 14px;
+    font-weight: bold;
+}
+.addProduct-form input,
+.addProduct-form textarea{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.addProduct-form  textarea{
+    resize: vertical;
+    min-height: 80px;
+}
+
+.addProduct-form button {
+    background-color: #007bff;
+    padding: 12px;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    margin:  10px  0px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+.addProduct-form button:hover:not(:disabled){
+    transform: translateY(-2px);
+    background-color: blue;
+}
+.addProduct-form button:active:not(:disabled){
+    transform: translateY(0);
+}
+
+.addProduct-form button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  transform: none;
+}
